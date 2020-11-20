@@ -23,5 +23,7 @@ The audiofiles in the main database are only copied, never deleted or changed.
 
 * rsync has a fitting feature
   * --files-from=FILE        read list of source-file names from FILE
+* compare files according to time of last change
+  * depending on that, delete or add files at destination
   
 
