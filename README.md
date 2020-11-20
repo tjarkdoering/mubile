@@ -19,3 +19,9 @@ Any files no longer listed in any of the playlist get removed automatically.
 Changes on the devices (removing playlist entries) lead to deletion and synchronisation to all other devices.
 The audiofiles in the main database are only copied, never deleted or changed.
 
+### Technical notes
+
+* rsync has a fitting feature
+  * --files-from=FILE        read list of source-file names from FILE
+  
+
